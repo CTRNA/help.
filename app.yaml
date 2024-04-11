@@ -1,0 +1,7 @@
+runtime: nodejs20 # Adjust to the correct Node.js version
+env: standard
+instance_class: F1
+
+env_variables:
+  NODE_ENV: 'production'
+  SESSION_SECRET: 'secretsecretsecret'
